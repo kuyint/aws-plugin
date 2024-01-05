@@ -30,7 +30,7 @@ func (s *secrets) Run(config string) any {
 var Secrets secrets
 
 type JsonConf struct {
-	AwsSecrets []Config `json:"aws_secrets"`
+	AwsSecrets []Config `json:"aws_secret"`
 }
 
 type Config struct {
